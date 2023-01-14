@@ -1,0 +1,46 @@
+#container{
+    position: relative;/*so that site can be responsive and clock hand do not roam*/
+    margin: auto;/*clock comes in btw*/
+    height: 40vw;
+    width: 40vw;
+    background: url(cl2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;/*clock becomes responsive*/
+}
+
+#hour , #min ,#sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    
+}
+
+#hour{
+     width: 1.5%;
+     height:20%;
+     left: 48.85%;
+     top: 31.7%;
+     opacity: 0.8;
+     transform-origin: bottom;
+     
+}
+
+#min{
+    width: 1.5%;
+    height:29%;
+    left: 48.85%;
+    top: 22.5%;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+}
+
+#sec{
+    width: 1%;
+    height:25%;
+    left: 49%;
+    top: 26.5%;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+}
